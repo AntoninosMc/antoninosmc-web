@@ -1,1 +1,7 @@
-# antoninosmc-web
+# AntoninosMc
+
+## Integrantes
+
+- Sheryl Condori
+- Vladimir Jauregui
+- Walther Alcocer
