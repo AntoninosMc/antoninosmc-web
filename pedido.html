@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzería a Tu Gusto - Pedido</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pizzería a Tu Gusto</h1>
+    <nav>
+      <button onclick="window.location.href='index.html'">Home</button>
+      <button onclick="window.location.href='pedido.html'">Pedido</button>
+      <button onclick="window.location.href='confirmacion.html'">Confirmación</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pedido">
+      <h2>Tu Pedido</h2>
+      <div id="pizza-info"></div>
+
+      <form id="pedido-form">
+        <h3>Seleccionar Tamaño:</h3>
+        <select id="tamano-pizza">
+          <option value="bipersonal">Bipersonal</option>
+          <option value="familiar">Familiar</option>
+          <option value="extrafamiliar">Extrafamiliar</option>
+        </select>
+
+        <h3>Ingredientes estándar:</h3>
+        <div id="ingredientes-estandar"></div>
+
+        <h3>Añadir más ingredientes:</h3>
+        <div id="ingredientes-opcionales"></div>
+
+        <button type="submit">Confirmar Pedido</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Pizzería a Tu Gusto. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
