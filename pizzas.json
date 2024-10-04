@@ -9,7 +9,7 @@
         "extrafamiliar": 60.00
       },
       "ingredientes": ["queso", "tomate", "albahaca"],
-      "imagen": "margarita.jpg"
+      "imagen": "margarita.png"
     },
     {
       "nombre": "Pepperoni",
@@ -20,7 +20,7 @@
         "extrafamiliar": 65.00
       },
       "ingredientes": ["queso", "pepperoni", "tomate"],
-      "imagen": "pepperoni.jpg"
+      "imagen": "pepperoni.png"
     },
     {
       "nombre": "Cuatro Quesos",
@@ -31,7 +31,7 @@
         "extrafamiliar": 70.00
       },
       "ingredientes": ["mozzarella", "cheddar", "parmesano", "azul"],
-      "imagen": "cuatro-quesos.jpg"
+      "imagen": "cuatro-quesos.png"
     },
     {
       "nombre": "Hawaiana",
@@ -42,7 +42,7 @@
         "extrafamiliar": 62.00
       },
       "ingredientes": ["piña", "jamón", "queso mozzarella"],
-      "imagen": "hawaiana.jpg"
+      "imagen": "hawaiana.png"
     }
   ],
   "ingredientesOpcionales": [
