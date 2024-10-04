@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+nav button:hover {
+  background-color: #c0392b;
+}
+
+/* Sección de pizzas */
+#menu, #pedido, #confirmacion {
+  text-align: center;
+  padding: 20px;
+}
+
+#menu h2, #pedido h2, #confirmacion h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Grid para las pizzas */
+.pizza-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.pizza-grid div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pizza-grid img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.pizza-grid h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.pizza-grid p {
+  margin: 10px 0;
+}
+
+.pizza-grid button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.pizza-grid button:hover {
+  background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+  
