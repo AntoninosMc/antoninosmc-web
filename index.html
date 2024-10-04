@@ -3,36 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pizzería a Tu Gusto - Menú</title>
+  <title>Pizzería - Menú</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- Header -->
   <header>
-    <h1>Pizzería a Tu Gusto</h1>
-    <nav>
-      <button onclick="window.location.href='index.html'">Home</button>
-      <button onclick="window.location.href='pedido.html'">Pedido</button>
-      <button onclick="window.location.href='confirmacion.html'">Confirmación</button>
-    </nav>
+    <h1>Pizzería a tu gusto</h1>
   </header>
 
-  <!-- Sección del menú de pizzas -->
   <main>
     <section id="menu">
-      <h2>Menú de Pizzas</h2>
-      <div class="pizza-grid" id="pizzas">
-        <!-- Aquí se cargarán dinámicamente las pizzas -->
+      <div class="pizza" id="margarita">
+        <h2>Margarita</h2>
+        <img src="img/margarita.png" alt="Pizza Margarita">
+        <p>Precio: S/ 25.00</p>
+        <button onclick="seleccionarPizza('margarita')">Seleccionar</button>
+      </div>
+      <div class="pizza" id="pepperoni">
+        <h2>Pepperoni</h2>
+        <img src="img/pepperoni.png" alt="Pizza Pepperoni">
+        <p>Precio: S/ 28.00</p>
+        <button onclick="seleccionarPizza('pepperoni')">Seleccionar</button>
+      </div>
+      <div class="pizza" id="cuatro-quesos">
+        <h2>Cuatro Quesos</h2>
+        <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+        <p>Precio: S/ 30.00</p>
+        <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <p>© 2024 Pizzería a Tu Gusto. Todos los derechos reservados.</p>
+    <p>&copy; 2024 Pizzería</p>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script src="./scripts.js"></script>
 </body>
 </html>
