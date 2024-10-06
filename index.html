@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizzería - Menú</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
   <header>
-    <h1>Pizzería a tu gusto</h1>
+    <h1>ANTONINOS</h1>
+
+    <section>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pedido.html">Pedido</a></li>
+        <li><a href="confirmacion.html">Confirmación</a></li>
+
+      </ul>
+    </section>
   </header>
 
   <main>
     <section id="menu">
       <div class="pizza" id="margarita">
         <h2>Margarita</h2>
-        <img src="img/margarita.png" alt="Pizza Margarita">
+        <img src="./img/margarita.png" alt="Pizza Margarita">
         <p>Precio: S/ 25.00</p>
         <button onclick="seleccionarPizza('margarita')">Seleccionar</button>
       </div>
       <div class="pizza" id="pepperoni">
         <h2>Pepperoni</h2>
-        <img src="img/pepperoni.png" alt="Pizza Pepperoni">
+        <img src="./img/pepperoni.png" alt="Pizza Pepperoni">
         <p>Precio: S/ 28.00</p>
         <button onclick="seleccionarPizza('pepperoni')">Seleccionar</button>
       </div>
       <div class="pizza" id="cuatro-quesos">
         <h2>Cuatro Quesos</h2>
-        <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+        <img src="./img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
         <p>Precio: S/ 30.00</p>
         <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+      </div>
+      <div class="pizza" id="hawaiana">
+        <h2>Hawaiana</h2>
+        <img src="./img/hawaiana.png" alt="Pizza hawaiana">
+        <p>Precio: S/ 30.00</p>
+        <button onclick="seleccionarPizza('hawaiana')">Seleccionar</button>
       </div>
     </section>
   </main>
@@ -38,6 +56,7 @@
     <p>&copy; 2024 Pizzería</p>
   </footer>
 
-  <script src="./scripts.js"></script>
+  <script src="./js/app.js"></script>
 </body>
+
 </html>

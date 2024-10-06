@@ -1,0 +1,106 @@
+/* TODO: Make it awesome */
+body,
+html {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  height: 100%;
+
+}
+
+/* style.css */
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+
+
+
+}
+
+header h1 {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: #254d27;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #4f7752;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  object-fit: contain;
+  border: 2px solid gray;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#chart-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+canvas {
+  max-width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 2px;
+}
+
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+
+}
+
+footer p {
+  margin: 0;
+}
