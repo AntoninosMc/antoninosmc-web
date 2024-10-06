@@ -5,58 +5,108 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizzería - Menú</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <header>
-    <h1>ANTONINOS</h1>
+    <div class="menu">
+      <a href="index.html"><img src="img/antoninosLogo.png" alt="logo"></a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contactanos</a></li>
+        </ul>
+      </nav>
+    </div>
+    <se class="header-content container">
+      <div class="header-txt">
+        <h1>HOLA, <span>holaa</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas facere quos ad voluptatibus, corporis
+          debitis repudiandae.</p>
+        <div class="button">
+          <a href="#">Ver Menu</a>
+        </div>
+      </div>
 
-    <section>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pedido.html">Pedido</a></li>
-        <li><a href="confirmacion.html">Confirmación</a></li>
+      <div class="header-img">
+        <img src="img/img-header.png" alt="imagenHeader">
+      </div>
+      </div>
 
-      </ul>
-    </section>
   </header>
 
   <main>
-    <section id="menu">
-      <div class="pizza" id="margarita">
-        <h2>Margarita</h2>
-        <img src="./img/margarita.png" alt="Pizza Margarita">
-        <p>Precio: S/ 25.00</p>
-        <button onclick="seleccionarPizza('margarita')">Seleccionar</button>
-      </div>
-      <div class="pizza" id="pepperoni">
-        <h2>Pepperoni</h2>
-        <img src="./img/pepperoni.png" alt="Pizza Pepperoni">
-        <p>Precio: S/ 28.00</p>
-        <button onclick="seleccionarPizza('pepperoni')">Seleccionar</button>
-      </div>
-      <div class="pizza" id="cuatro-quesos">
-        <h2>Cuatro Quesos</h2>
-        <img src="./img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
-        <p>Precio: S/ 30.00</p>
-        <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
-      </div>
-      <div class="pizza" id="hawaiana">
-        <h2>Hawaiana</h2>
-        <img src="./img/hawaiana.png" alt="Pizza hawaiana">
-        <p>Precio: S/ 30.00</p>
-        <button onclick="seleccionarPizza('hawaiana')">Seleccionar</button>
+    <section id="menu" class="container menu-p1">
+      <h2>LO MÁS VENDIDO</h2>
+      <p>Una buena pizza se disfruta mejor en familia y amigos.</p>
+      <div class="pizza-cards">
+        <div class="pizza" id="margarita">
+          <div class="pizza-text">
+            <img src="img/margarita.png" alt="Pizza Margarita">
+            <h3>Margarita</h3>
+            <p>6 Quesos, Salsa de Tomate, Orégano y Tomate.</p>
+            <div class="precio">
+              <span>Precio: S/ 25.00</span>
+              <button onclick="seleccionarPizza('margarita')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
+        <div class="pizza" id="pepperoni">
+          <div class="pizza-text">
+            <img src="img/pepperoni.png" alt="Pizza Pepperoni">
+            <h3>Pepperoni</h3>
+            <p>Queso Mozarella, Pepperoni y Salsa de Tomate.</p>
+            <div class="precio">
+              <span>Precio: S/ 28.00</span>
+              <button onclick="seleccionarPizza('pepperoni')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
+        <div class="pizza" id="cuatro-quesos">
+          <div class="pizza-text">
+            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+            <h3>Cuatro Quesos</h3>
+            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
+            <div class="precio">
+              <span>Precio: S/ 30.00</span>
+              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
+  <section class="extra container">
 
+    <div class="about">
+      <div class="about-card">
+        <div class="about-content">
+          <img src="img/margarita.png" alt="Pizza Margarita">
+            <h2>LO MÁS VENDIDO</h2>
+            <p>¡Haz de tu reunión una fiesta inolvidable! Combos deliciosos para más de 10 personas, ideales para
+              compartir con amigos y familia. ¡Ordena y disfruta!</p>
+          </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-content">
+
+          <img src="img/margarita.png" alt="Pizza Margarita">
+
+            <h2>LO MÁS VENDIDO</h2>
+            <p>¡Haz de tu reunión una fiesta inolvidable! Combos deliciosos para más de 10 personas, ideales para
+              compartir con amigos y familia. ¡Ordena y disfruta!</p>
+          </div>
+        </div>
+    </div>
+  </section>
   <footer>
     <p>&copy; 2024 Pizzería</p>
   </footer>
 
-  <script src="./js/app.js"></script>
+  <script src="./scripts.js"></script>
 </body>
 
 </html>

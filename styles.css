@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.menu a img {
+  width: 150px;
+  position: absolute;
+  top: -45px;
+  margin-left: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu .navbar ul li a {
+  font-size: 15px;
+  padding: 20px;
+  color: #000;
+  display: block;
+  font-weight: 700;
+
+}
+
+header {
+  background-color: #343a40;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-txt {
+  width: 50%;
+}
+
+.header-txt h1 {
+  font-size: 70px;
+  line-height: 85px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header-txt span {
+  font-size: 90px;
+  color: #28a745;
+}
+
+.header-txt p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header-img {
+  width: 50%;
+  text-align: center;
+}
+
+.header-img img {
+  width: 550px;
+}
+
+.header-txt a {
+  padding: 13px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 15px;
+  width: 40%;
+  margin-left: 30px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.header-txt a:hover {
+  background-color: #218838;
+  color: #fff;
+}
+
+.menu-p1 {
+  padding: 70px 0;
+  margin-top: 20px;
+}
+
+.menu-p1 p {
+  padding: 0 0 15px 0;
+}
+
+h2 {
+  padding: 15px 0;
+  font-size: 30px;
+  color: #000;
+}
+
+span {
+  color: #218838;
+}
+
+.pizza-cards {
+  display: flex;
+}
+
+.pizza {
+  display: inline-block;
+  border: 10px solid transparent;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.pizza-text {
+  border-radius: 25px;
+
+}
+
+.pizza img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.pizza h3 {
+  font-size: 18px;
+  color: #000;
+  padding: 13px;
+}
+
+.pizza p {
+  font-size: 16px;
+  padding: 0 25px 20px 25px;
+}
+
+.precio {
+  padding: 0 25px 10px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio span {
+  font-weight: 700;
+  color: #000;
+
+}
+
+button {
+  background-color: #2d5d2a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.extra {
+  padding: 70px 0;
+}
+
+.about {
+  display: flex;
+  border: 10px solid transparent;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.about-card {
+  display: flex;
+  width: 50%;
+}
+
+.about-content {
+  display: flex;
+  width: 50%;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.about-txt {
+  width: 50%;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
