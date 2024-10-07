@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pizzería - Confirmación</title>
+  <title>Pizzería - Pedido</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -22,21 +22,17 @@
       </nav>
     </div>
   </header>
-  <main class="extra">
+  <main class="header-content extra">
 
-    <section id="confirmacion-pedido" class="container confirmacion">
-      <div class="confirmacion-card">
-        <img src="img/moto.png" alt="pizza-confirmacion">
-        <h3>Gracias por tu preferencia</h3>
-      </div>
-      <div class="confirmacion-card">
-        <h2>Pedido Confirmado</h2>
-        <p>Gracias por tu compra.</p>
-        <button onclick="nuevoPedido()">Nuevo Pedido</button>
-      </div>
+    <section id="resumen-pedido" class="pedido-card">
+      <h2>Resumen del Pedido</h2>
+      <div id="pedido-info"></div>
+      <p>Total: <span id="precio-total"></span></p>
+      <button onclick="confirmarPedido()">Confirmar Pedido</button>
     </section>
 
   </main>
+
   <footer>
     <div class="grupo-1 container">
       <div class="box">

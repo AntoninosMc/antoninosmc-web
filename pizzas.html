@@ -4,42 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pizzería - Menú</title>
+  <title>Pizzería - Confirmación</title>
   <link rel="stylesheet" href="./css/styles.css">
-  <script src="https://kit.fontawesome.com/162d1e7e90.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <div class="menu ">
+  <header> 
+    <div class="menu">
       <a href="index.html"><img src="img/antoninosLogo.png" alt="logo"></a>
       <nav class="navbar">
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="pedidos.html">Pedido</a></li>
-          <li><a href="pizzas.html">Pizzas</a></li>
-          <li><a href="confirmacion.html">Confirmación</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pedidos.html">Pedido</a></li>
+            <li><a href="pizzas.html">Pizzas</a></li>
+            <li><a href="confirmacion.html">Confirmación</a></li>
         </ul>
       </nav>
     </div>
-    <section class="header-content container">
-      <div class="header-txt">
-        <h1>Disfruta a lo <span>GRANDE</span></h1>
-        <p>Personalizar su pizza de manera única, eligiendo tanto los ingredientes como la cantidad de cada uno!!!</p>
-        <div class="button">
-          <a href="pizzas.html">Ordena ya!</a>
-        </div>
-      </div>
-
-      <div class="header-img">
-        <img src="img/file.png" alt="imagenHeader">
-      </div>
-      </div>
-
   </header>
-
   <main>
-    <section id="menu" class="container">
+    <section id="menu" class="container menu-p1">
       <h2>LO MÁS VENDIDO</h2>
       <p>Una buena pizza se disfruta mejor en familia y amigos.</p>
       <div class="card">
@@ -76,37 +60,65 @@
             </div>
           </div>
         </div>
+        <div class="pizza" id="cuatro-quesos">
+          <div class="pizza-text">
+            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+            <h3>Cuatro Quesos</h3>
+            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
+            <div class="precio">
+              <span>Precio: S/ 30.00</span>
+              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
+        <div class="pizza" id="cuatro-quesos">
+          <div class="pizza-text">
+            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+            <h3>Cuatro Quesos</h3>
+            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
+            <div class="precio">
+              <span>Precio: S/ 30.00</span>
+              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
+        <div class="pizza" id="cuatro-quesos">
+          <div class="pizza-text">
+            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+            <h3>Cuatro Quesos</h3>
+            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
+            <div class="precio">
+              <span>Precio: S/ 30.00</span>
+              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
+        <div class="pizza" id="cuatro-quesos">
+          <div class="pizza-text">
+            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+            <h3>Cuatro Quesos</h3>
+            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
+            <div class="precio">
+              <span>Precio: S/ 30.00</span>
+              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
+        <div class="pizza" id="cuatro-quesos">
+          <div class="pizza-text">
+            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
+            <h3>Cuatro Quesos</h3>
+            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
+            <div class="precio">
+              <span>Precio: S/ 30.00</span>
+              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-
-  
-  <section class="extra container">
-    <div class="about">
-      <div class="about-card">
-        <div class="about-content">
-          <img src="img/vendido.png" alt="Pizza Margarita">
-          <div>
-            <h2>LO MÁS VENDIDO</h2>
-            <p>¡Haz de tu reunión una fiesta inolvidable! Combos deliciosos para más de 10 personas, ideales para
-              compartir con amigos y familia. ¡Ordena y disfruta!</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="about-card">
-        <div class="about-content">
-          <img src="img/delivery.png" alt="Pizza Margarita">
-          <div>
-            <h2>¡AHORA LLEGAMOS MÁS LEJOS!</h2>
-            <p>¡Pide desde nuestra web, call center o bot, y disfruta de nuestro servicio a domicilio. También puedes
-              comprar online y recoger en tienda. ¡Conoce nuestras nuevas ubicaciones!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <footer>
     <div class="grupo-1 container">
       <div class="box">
@@ -130,8 +142,7 @@
       </div>
     </div>
   </footer>
-
-  <script src="./scripts.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 
 </html>
