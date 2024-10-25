@@ -16,9 +16,9 @@
       <nav class="navbar">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="pedidos.html">Pedido</a></li>
           <li><a href="pizzas.html">Pizzas</a></li>
-          <li><a href="confirmacion.html">Confirmación</a></li>
+          <li><a href="pedidos.html">Pedido</a></li>
+        
         </ul>
       </nav>
     </div>
@@ -42,46 +42,12 @@
     <section id="menu" class="container">
       <h2>LO MÁS VENDIDO</h2>
       <p>Una buena pizza se disfruta mejor en familia y amigos.</p>
-      <div class="card">
-        <div class="pizza" id="margarita">
-          <div class="pizza-text">
-            <img src="img/margarita.png" alt="Pizza Margarita">
-            <h3>Margarita</h3>
-            <p>6 Quesos, Salsa de Tomate, Orégano y Tomate.</p>
-            <div class="precio">
-              <span>Precio: S/ 25.00</span>
-              <button onclick="seleccionarPizza('margarita')">Seleccionar</button>
-            </div>
-          </div>
-        </div>
-        <div class="pizza" id="pepperoni">
-          <div class="pizza-text">
-            <img src="img/pepperoni.png" alt="Pizza Pepperoni">
-            <h3>Pepperoni</h3>
-            <p>Queso Mozarella, Pepperoni y Salsa de Tomate.</p>
-            <div class="precio">
-              <span>Precio: S/ 28.00</span>
-              <button onclick="seleccionarPizza('pepperoni')">Seleccionar</button>
-            </div>
-          </div>
-        </div>
-        <div class="pizza" id="cuatro-quesos">
-          <div class="pizza-text">
-            <img src="img/cuatro-quesos.png" alt="Pizza Cuatro Quesos">
-            <h3>Cuatro Quesos</h3>
-            <p>Mix de 4 quesos, Salsa de Tomate, Tocino y Jamón.</p>
-            <div class="precio">
-              <span>Precio: S/ 30.00</span>
-              <button onclick="seleccionarPizza('cuatro-quesos')">Seleccionar</button>
-            </div>
-          </div>
-        </div>
+      <div id="pizzas-container" class="card" data-masvendidos="masvendidos">
+        
       </div>
     </section>
   </main>
 
-
-  
   <section class="extra container">
     <div class="about">
       <div class="about-card">
@@ -115,23 +81,23 @@
 
       <div class="box">
         <h2> SOBRE NOSOTROS </h2>
-        <p>AntoninosMC permite a los clientes personalizar su pizza de manera única, eligiendo tanto los ingredientes como la cantidad de cada uno.</p>
+        <p>AntoninosMC permite a los clientes personalizar su pizza de manera única, eligiendo tanto los ingredientes
+          como la cantidad de cada uno.</p>
       </div>
       <div class="box">
         <h2>NAVEGA</h2>
         <nav class="link-footer">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="pedidos.html">Pedido</a></li>
             <li><a href="pizzas.html">Pizzas</a></li>
-            <li><a href="confirmacion.html">Confirmación</a></li>
           </ul>
         </nav>
       </div>
     </div>
-  </footer>
-
-  <script src="./scripts.js"></script>
+  </footer> 
+  <script src="./js/database.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 
 </html>

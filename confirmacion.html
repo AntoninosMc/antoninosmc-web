@@ -17,26 +17,41 @@
           <li><a href="index.html">Inicio</a></li>
           <li><a href="pedidos.html">Pedido</a></li>
           <li><a href="pizzas.html">Pizzas</a></li>
-          <li><a href="confirmacion.html">Confirmación</a></li>
         </ul>
       </nav>
     </div>
   </header>
+  
   <main class="extra">
 
     <section id="confirmacion-pedido" class="container confirmacion">
       <div class="confirmacion-card">
         <img src="img/moto.png" alt="pizza-confirmacion">
-        <h3>Gracias por tu preferencia</h3>
       </div>
-      <div class="confirmacion-card">
-        <h2>Pedido Confirmado</h2>
-        <p>Gracias por tu compra.</p>
-        <button onclick="nuevoPedido()">Nuevo Pedido</button>
+
+      <!-- Formulario para ingresar los datos del cliente -->
+      <div class="confirmacion">
+        <form id="formulario">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+      
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" required><br><br>
+      
+          <label for="celular">Celular:</label>
+          <input type="tel" id="celular" name="celular" required><br><br>
+      
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required><br><br>
+      
+          <button type="submit" id="guardarDatos" >Enviar</button>
+        </form>
       </div>
+
     </section>
 
   </main>
+  
   <footer>
     <div class="grupo-1 container">
       <div class="box">
@@ -51,15 +66,15 @@
         <h2>NAVEGA</h2>
         <nav class="link-footer">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="pedidos.html">Pedido</a></li>
             <li><a href="pizzas.html">Pizzas</a></li>
-            <li><a href="confirmacion.html">Confirmación</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </footer>
+  
   <script src="./js/app.js"></script>
 </body>
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Pedidos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html"><img src="img/antoninosLogo.png" alt="logo"></a>
+            <nav class="navbar">
+              <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+    <main class="extra">
+        <section class="container">
+            <h2>Historial de Pedidos</h2>
+
+            <button id="actualizar">Actualizar Tabla</button>
+
+            <table id="tabla-pedidos">
+                <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Nombre</th>
+                      <th>Dirección</th>
+                      <th>Celular</th>
+                      <th>Correo</th>
+                      <th>Pizza</th>
+                      <th>Tamaño</th>
+                      <th>Cantidad</th>
+                      <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se insertarán los pedidos -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="grupo-1 container">
+          <div class="box">
+            <a href="#"><img src="img/antoninosLogo.png" alt="antoninosLogo"></a>
+          </div>
+    
+          <div class="box">
+            <h2> SOBRE NOSOTROS </h2>
+            <p>AntoninosMC permite a los clientes personalizar su pizza de manera única, eligiendo tanto los ingredientes
+              como la cantidad de cada uno.</p>
+          </div>
+          <div class="box">
+            <h2>NAVEGA</h2>
+            <nav class="link-footer">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pedidos.html">Pedido</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Vinculación del archivo dashboard.js -->
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>
+
+
+

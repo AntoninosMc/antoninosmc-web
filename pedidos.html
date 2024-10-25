@@ -17,7 +17,6 @@
           <li><a href="index.html">Inicio</a></li>
           <li><a href="pedidos.html">Pedido</a></li>
           <li><a href="pizzas.html">Pizzas</a></li>
-          <li><a href="confirmacion.html">Confirmación</a></li>
         </ul>
       </nav>
     </div>
@@ -27,7 +26,13 @@
     <section id="resumen-pedido" class="pedido-card">
       <h2>Resumen del Pedido</h2>
       <div id="pedido-info"></div>
-      <p>Total: <span id="precio-total"></span></p>
+      <div class="cantidad">
+        <label for="cantidad">Cantidad:</label>
+        <button id="disminuir-cantidad">-</button>
+        <input type="number" id="cantidad" value="1" min="1" readonly>
+        <button id="aumentar-cantidad">+</button>
+      </div>
+      <p>Total: <span id="precio-total">S/ 0</span></p>
       <button onclick="confirmarPedido()">Confirmar Pedido</button>
     </section>
 
@@ -50,7 +55,6 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="pedidos.html">Pedido</a></li>
             <li><a href="pizzas.html">Pizzas</a></li>
-            <li><a href="confirmacion.html">Confirmación</a></li>
           </ul>
         </nav>
       </div>
